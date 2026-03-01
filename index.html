@@ -1,14 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nazargulov Tools</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9782800108858107"
          crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazargulov Tools — Free Browser Extensions & Online Tools</title>
+    <meta name="description" content="Free browser extensions and online tools built for local markets. Productivity tools in Portuguese, French, and Italian.">
+    <meta name="keywords" content="browser extensions, online tools, free tools, productivity, chrome extensions">
+    <link rel="canonical" href="https://nazargulov.github.io/">
+
+    <meta property="og:title" content="Nazargulov Tools — Free Browser Extensions & Online Tools">
+    <meta property="og:description" content="Free browser extensions and online tools built for local markets.">
+    <meta property="og:url" content="https://nazargulov.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --primary-light: rgba(37, 99, 235, 0.08);
+            --dark: #1e293b;
+            --gray: #64748b;
+            --light: #f8fafc;
+            --white: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: var(--white);
+        }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 60px 0 80px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 560px;
+            margin: 0 auto;
+        }
+
+        .about {
+            padding: 60px 0 40px;
+        }
+
+        .about h2 {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+
+        .about p {
+            color: var(--gray);
+            font-size: 1rem;
+            margin-bottom: 16px;
+            max-width: 760px;
+        }
+
+        .market {
+            padding: 40px 0;
+        }
+
+        .market h2 {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+            color: var(--dark);
+        }
+
+        .market > .container > p {
+            color: var(--gray);
+            margin-bottom: 28px;
+            font-size: 0.95rem;
+        }
+
+        .ext-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .ext-card {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            border: 1px solid #e2e8f0;
+        }
+
+        .ext-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .ext-icon { font-size: 40px; margin-bottom: 16px; }
+
+        .ext-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--dark);
+        }
+
+        .ext-desc {
+            font-size: 0.95rem;
+            color: var(--gray);
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+
+        .ext-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: var(--primary-light);
+            color: var(--primary);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .ext-badge.cws {
+            background: rgba(52, 168, 83, 0.08);
+            color: #34a853;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #e2e8f0;
+            margin: 0;
+        }
+
+        footer {
+            background: var(--light);
+            padding: 30px 0;
+            text-align: center;
+            color: var(--gray);
+            font-size: 0.85rem;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        footer a { color: var(--primary); text-decoration: none; }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .ext-grid { grid-template-columns: 1fr; }
+            .about h2 { font-size: 1.3rem; }
+            .market h2 { font-size: 1.4rem; }
+        }
+    </style>
 </head>
 <body>
-    <h1>Nazargulov Tools</h1>
-    <p>Browser extensions for productivity.</p>
+
+<header>
+    <div class="container">
+        <h1>&#128736; Nazargulov Tools</h1>
+        <p>Free browser extensions and online tools for productivity — built for local markets, in local languages</p>
+    </div>
+</header>
+
+<section class="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We build free browser extensions and web-based tools designed for specific national markets. Every tool is fully localized — not just translated, but adapted to the language, culture, and workflows of each country. Whether you need to send bulk emails in Brazil, convert measurements in France, or generate random numbers for Italian board games, we have a tool that speaks your language.</p>
+        <p>Our tools are lightweight, privacy-friendly, and work directly in your browser. Most are completely free; some offer optional premium features through affordable subscriptions. We believe productivity software should be accessible to everyone, regardless of what language they speak.</p>
+        <p>Currently we serve users in Brazil, France, and Italy, with more markets coming soon. Each tool is published on the Chrome Web Store and backed by a dedicated landing page in the local language.</p>
+    </div>
+</section>
+
+<hr class="divider">
+
+<!-- Brazil -->
+<section class="market">
+    <div class="container">
+        <h2>&#127463;&#127479; Brazil</h2>
+        <p>Productivity tools in Brazilian Portuguese (pt-BR)</p>
+        <div class="ext-grid">
+            <a href="/br/envio-email-em-massa/" class="ext-card">
+                <div class="ext-icon">&#9993;</div>
+                <div class="ext-name">EmailMassa — Envio de Email em Massa</div>
+                <div class="ext-desc">Send bulk emails directly from Gmail. Create mailing lists, personalize messages, and track delivery — all from within your inbox.</div>
+                <span class="ext-badge cws">&#10003; Published on Chrome Web Store</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
+<!-- France -->
+<section class="market">
+    <div class="container">
+        <h2>&#127467;&#127479; France</h2>
+        <p>Outils en ligne gratuits en fran&ccedil;ais</p>
+        <div class="ext-grid">
+            <a href="/fr/convertisseur/" class="ext-card">
+                <div class="ext-icon">&#128259;</div>
+                <div class="ext-name">Convertisseur Universel</div>
+                <div class="ext-desc">Universal unit converter for length, weight, temperature, volume, and more. Fast conversions with a clean French interface.</div>
+                <span class="ext-badge">&#10003; Free</span>
+            </a>
+            <a href="/fr/convertisseur-lunettes/" class="ext-card">
+                <div class="ext-icon">&#128083;</div>
+                <div class="ext-name">Convertisseur de Lunettes</div>
+                <div class="ext-desc">Convert eyeglass prescriptions between different formats and find matching frames online. Built for the French optical market.</div>
+                <span class="ext-badge">&#10003; Free</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
+<!-- Italy -->
+<section class="market">
+    <div class="container">
+        <h2>&#127470;&#127481; Italy</h2>
+        <p>Strumenti online gratuiti in italiano</p>
+        <div class="ext-grid">
+            <a href="/it/generatore/" class="ext-card">
+                <div class="ext-icon">&#128290;</div>
+                <div class="ext-name">Generatore di Numeri Casuali</div>
+                <div class="ext-desc">Generate random numbers, roll dice, and extract lottery numbers. Cryptographically secure and instant.</div>
+                <span class="ext-badge">&#10003; Free</span>
+            </a>
+            <a href="/it/generatore/tombola/" class="ext-card">
+                <div class="ext-icon">&#127183;</div>
+                <div class="ext-name">Tombola Online</div>
+                <div class="ext-desc">Draw numbers from 1 to 90 with traditional Smorfia Napoletana meanings. Perfect for family game nights and Christmas.</div>
+                <span class="ext-badge">&#10003; Free</span>
+            </a>
+            <a href="/it/generatore/ruota/" class="ext-card">
+                <div class="ext-icon">&#127905;</div>
+                <div class="ext-name">Ruota della Fortuna</div>
+                <div class="ext-desc">Customize options, spin the wheel, and let fate decide. Great for games, raffles, and group decisions.</div>
+                <span class="ext-badge">&#10003; Free</span>
+            </a>
+            <a href="/it/generatore/dado/" class="ext-card">
+                <div class="ext-icon">&#127922;</div>
+                <div class="ext-name">Dado Online</div>
+                <div class="ext-desc">Roll virtual D4, D6, D8, D10, D12, D20 and D100 dice. Perfect for board games and tabletop RPGs.</div>
+                <span class="ext-badge">&#10003; Free</span>
+            </a>
+            <a href="/it/generatore/testa-o-croce/" class="ext-card">
+                <div class="ext-icon">&#129689;</div>
+                <div class="ext-name">Testa o Croce</div>
+                <div class="ext-desc">Flip a virtual coin with 3D animation. Real-time statistics and multiple flips for quick decisions.</div>
+                <span class="ext-badge">&#10003; Free</span>
+            </a>
+            <a href="/it/generatore/superenalotto/" class="ext-card">
+                <div class="ext-icon">&#127920;</div>
+                <div class="ext-name">Generatore SuperEnalotto</div>
+                <div class="ext-desc">Generate random numbers for SuperEnalotto, Million Day, and EuroJackpot. Your lucky numbers, one click away.</div>
+                <span class="ext-badge">&#10003; Free</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Nazargulov Tools. Contact: <a href="mailto:nicknazargulov@gmail.com">nicknazargulov@gmail.com</a></p>
+    </div>
+</footer>
+
 </body>
 </html>
