@@ -148,6 +148,13 @@
             color: #34a853;
         }
 
+        a.ext-badge {
+            text-decoration: none;
+            margin-right: 8px;
+        }
+
+        a.ext-badge:hover { opacity: 0.8; }
+
         .divider {
             border: none;
             border-top: 1px solid #e2e8f0;
@@ -199,12 +206,13 @@
         <h2>&#127463;&#127479; Brazil</h2>
         <p>Productivity tools in Brazilian Portuguese (pt-BR)</p>
         <div class="ext-grid">
-            <a href="/br/envio-email-em-massa/" class="ext-card">
+            <div class="ext-card">
                 <div class="ext-icon">&#9993;</div>
                 <div class="ext-name">EmailMassa — Envio de Email em Massa</div>
                 <div class="ext-desc">Send bulk emails directly from Gmail. Create mailing lists, personalize messages, and track delivery — all from within your inbox.</div>
-                <span class="ext-badge cws">&#10003; Published on Chrome Web Store</span>
-            </a>
+                <a href="https://chromewebstore.google.com/detail/fpffoemdjikjbdibennhoeblaefafohg" target="_blank" rel="noopener" class="ext-badge cws">&#10003; Chrome Web Store</a>
+                <a href="/br/envio-email-em-massa/" class="ext-badge">Website &rarr;</a>
+            </div>
         </div>
     </div>
 </section>
